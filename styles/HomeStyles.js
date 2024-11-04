@@ -1,5 +1,4 @@
 import { StyleSheet } from 'react-native';
-import { Input } from 'react-native-elements';
 
 const HomeStyles = StyleSheet.create({
   container: {
@@ -24,10 +23,13 @@ const HomeStyles = StyleSheet.create({
     color: '#fff',
     fontSize: 36,
   },
-  Input: {
-    width: 10,
-    height: 5,
-  }
+  input: {
+      height: 40,
+      borderColor: 'gray',
+      borderWidth: 4,
+      width: '80%',
+      padding: 10,
+  },
 });
 
 export default HomeStyles;
