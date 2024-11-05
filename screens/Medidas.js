@@ -2,7 +2,7 @@ import React from 'react';
 import { View, Text, TouchableOpacity, TouchableOpacityComponent } from 'react-native';
 import HomeStyles from '../styles/HomeStyles.js';
 
-export default function Medidas({ navigation }) {
+export default function Medidas() {
   return (
     <View style={HomeStyles.container}>
       <Text style={HomeStyles.title}>Conversor de moeda</Text>
