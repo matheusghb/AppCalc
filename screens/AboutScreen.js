@@ -11,8 +11,8 @@ export default function IMC() {
     const pesoNum = parseFloat(peso);
     const alturaNum = parseFloat(altura);
     if (pesoNum > 0 && alturaNum > 0) {
-      const imcCalc = pesoNum / (alturaNum * alturaNum); // Correção na fórmula
-      setImc(imcCalc); // Atualiza o estado com o valor calculado do IMC
+      const imcCalc = pesoNum / (alturaNum * alturaNum); 
+      setImc(imcCalc); 
       console.log(imcCalc, alturaNum, pesoNum);
     } else {
       alert('Preencha os campos corretamente.');

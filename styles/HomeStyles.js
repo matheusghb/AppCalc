@@ -30,6 +30,25 @@ const HomeStyles = StyleSheet.create({
       width: '80%',
       padding: 10,
   },
+  checkbox: {
+    align: 'column',
+    top: 10,
+    left: 10,
+  },
+  text1: {
+    left: 40,
+    bottom: 8,
+  },
+  checkbox2: {
+    align: 'column',
+    left: 350,
+    bottom: 190,
+  },
+  text2: {
+    right: 60,
+    bottom: 210,
+    textAlign: 'right',
+  },
 });
 
 export default HomeStyles;
