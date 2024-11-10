@@ -24,30 +24,18 @@ const HomeStyles = StyleSheet.create({
     fontSize: 36,
   },
   input: {
-      height: 40,
-      borderColor: 'gray',
-      borderWidth: 4,
-      width: '80%',
-      padding: 10,
-  },
-  checkbox: {
-    align: 'column',
-    top: 10,
-    left: 10,
-  },
-  text1: {
-    left: 40,
-    bottom: 8,
-  },
-  checkbox2: {
-    align: 'column',
-    left: 350,
-    bottom: 190,
+    height: 40,
+    borderColor: 'gray',
+    borderWidth: 4,
+    width: '30%',
+    padding: 10,
+    margin: 10
   },
   text2: {
-    right: 60,
-    bottom: 210,
-    textAlign: 'right',
+    marginLeft: 10,
+    Flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
   },
 });
 
